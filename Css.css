@@ -1,0 +1,48 @@
+.headding{
+    color:white;
+    text-align: left;
+}
+.name{
+    color:black;
+    text-align: left;
+}
+.mobilenumber{
+    color: black;
+    text-align: left;
+}
+.main{
+    background-color: bisque;
+    text-align: left;
+}
+.address{
+    color: blue;
+    text-align: left;
+}
+.button{
+    color: black;
+    background-color:wheat;
+
+}
+.button:hover{
+    color: white;
+    background-color: cadetblue;
+}
+.outputDiv{
+    background-color: whitesmoke;
+  
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: whitesmoke;
+}
+

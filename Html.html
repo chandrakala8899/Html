@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Name and Address Form and mobilenumber</title>
+<link rel="stylesheet" href="Css.css">
+<script src="javaScript.js"></script>
+</head>
+<body>
+    <div class="main">
+        <h2 class="headding">Enter Your Name and Address and mobilenumber</h2>
+        <form id="myForm">
+            <label for="fullname" class="name">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname" required><br><br>
+            <label for="mobilenumber" class="number">mobilenumber:</label><br>
+            <input type="text" id="mobilenumber" name="mobilenumber" required><br><br>
+            <label for="address" class="address">Address:</label><br>
+            <textarea id="address" name="address" rows="4" cols="50" required></textarea><br><br>
+            <input type="button" value="Submit" onclick="submitForm()" class="button">
+        </form>
+    </div>
+    <div id="output" class="outputDiv"></div>
+   
+</link>    
+</body>
+</html>
